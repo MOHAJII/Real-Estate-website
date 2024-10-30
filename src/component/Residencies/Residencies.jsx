@@ -3,6 +3,7 @@ import './Residencies.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import data from "../../utils/slider.json"
+import { sliderSettings } from '../../utils/common'
 
 // Video 1:08:00
 
@@ -15,10 +16,7 @@ const Residencies = () => {
                     <span className='primaryText'>Popular Residencies</span>
                 </div>
 
-                <Swiper
-                    spaceBetween={10}
-                    slidesPerView={4}
-                >
+                <Swiper {...sliderSettings}>
                     {
                         data.map((card, i) => (
                             <SwiperSlide key={i}>
