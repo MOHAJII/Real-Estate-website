@@ -64,4 +64,7 @@
     width: 80px;
     background: rgba(128, 128, 128, 0.637);
     color: black;
+    cursor: pointer;
+    transition: all 100ms;
+    scale: 1.08;
 }

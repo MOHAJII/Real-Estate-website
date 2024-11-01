@@ -1,0 +1,25 @@
+.c-container {
+    justify-content: space-between;
+}
+
+.c-container>div {
+    flex:1;
+}
+
+.c-right {
+    width: 100%;
+}
+
+.c-left {
+    gap: .5rem;
+}
+
+.c-contactModes {
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.c-contactModes .row {
+    gap: 1.5rem;
+                                
+}

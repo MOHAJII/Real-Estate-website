@@ -5,7 +5,7 @@
     background: var(--black);
 }
 
-.hero-container {
+.hero-container { 
     justify-content: space-between;
     align-items: flex-end;
 }
