@@ -38,11 +38,9 @@
 .r-card:hover {
     scale: 1.025;
     cursor: pointer;
-    background: linear-gradient(
-        180deg, 
-        rgba(255,255, 255, 0) 0%,
-        rgba(136, 160, 255, 0.46) 217.91%
-    );
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(136, 160, 255, 0.46) 217.91%);
     box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
 }
 
@@ -51,11 +49,19 @@
 }
 
 .r-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     gap: 1rem;
+    z-index: 45;
+    padding: 0 10px;
 }
+
 
 .r-buttons button {
     font-size: 1.2rem;
     padding: 0.2rem;
-
+    width: 80px;
+    background: rgba(128, 128, 128, 0.637);
+    color: black;
 }
