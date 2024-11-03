@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-.button {
+button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
@@ -33,7 +33,7 @@ a {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   transform: scale(1.1);
 }
 
