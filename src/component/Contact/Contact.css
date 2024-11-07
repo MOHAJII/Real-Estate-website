@@ -1,9 +1,5 @@
 .c-container {
-    justify-content: space-between;
-}
-
-.c-container>div {
-    flex:1;
+    justify-content: space-between!important ;
 }
 
 .c-right {
