@@ -1,0 +1,24 @@
+.inner-container {
+    color: white;
+    gap: 1.5rem;  
+    background: var(--blue); 
+    padding: 2rem;
+    border-radius: 10px;
+    border: 5px solid rgba(57, 57, 224, 0.911);
+}
+
+.inner-container>:nth-child(2) {
+    text-align: center;
+  
+}
+
+.gs-btn {
+    border: 1px solid #fff;
+    background: #ffffff38;
+    border-radius: 5px;
+    background: var(--blue);
+}
+
+.secondaryText {
+    color: white!important;
+}
